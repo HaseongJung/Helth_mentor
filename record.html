@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Black+Han+Sans&family=Do+Hyeon&family=Gowun+Dodum&family=Jua&family=Libre+Baskerville:wght@700&family=Noto+Sans+KR:wght@400;500;700;900&display=swap" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.0.9/fullpage.min.js"></script>
+    <script src="js/jquery-3.5.1.min.js"></script>
+    <script src="js/jquery.fullpage.js"></script>
+    <link href="js/jquery.fullpage.css" rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+	<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script type="text/javascript" src="http://davidlynch.org/projects/maphilight/jquery.maphilight.min.js"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@2.8.0"></script>
+    <link href="/media/mini.png" rel="icon">
+    <link href="css/record.css?after" rel="stylesheet">
+    <title>Health Mentor</title>
+    <script defer src="js/record.js"></script>
+</head>
+<body>
+    <header>
+        <ul id="menu1">
+            <li><button type="button" onclick="location.href='main.html#유산소'" class="menuItem" id="bt1">유산소</button>
+              <ul class = "submenu">
+                  <li><a href="cardio.html#런닝머신">런닝머신</a></li>
+                  <li><a href="cardio.html#사이클">사이클</a></li>
+                  <li><a href="cardio.html#스텝밀">스텝밀</a></li>
+              </ul>
+          </li>
+        </ul>
+        <ul id="menu2">
+            <li><button type="button" onclick="location.href='main.html#무산소'" class="menuItem" id="bt2">무산소</button>
+              <ul class = "submenu">
+                <li><a href="weight.html#가슴">가슴</a></li>
+                <li><a href="weight.html#등">등</a></li>
+                <li><a href="weight.html#어깨">어깨</a></li>
+                <li><a href="weight.html#팔">팔</a></li>
+                <li><a href="weight.html#하체">하체</a></li>
+            </ul>
+          </li>
+        </ul>
+        <li id="logo"><button type="button" onclick="location.href='main.html'" class="logo" id="bt3">HEALTH MENTOR</button></li>
+        <ul id="menu3">
+            <li><button type="button" onclick="location.href='main.html#기록'" class="menuItem" id="bt4">기록</button></li>
+        </ul>
+        <ul id="menu4">  
+            <li><button type="button" onclick="location.href='main.html#헬스장 찾기'" class="menuItem" id="bt5">헬스장 찾기</button></li>
+        </ul> 
+    </header>
+
+    <div id="fullpage">
+        <section id="sc1" class="section" name="입력">
+            <div class="inputName"><span>이름: </span><input placeholder="이름을 입력해주세요!"></div>
+            <div class="container">
+                <div id="img">
+                    <img id="지방이" src="media/지방이.png">
+                </div>
+                <div id="input">
+                    <div><span class="inputItem">키 (cm)</span><input placeholder="키를 입력해주세요!"></div>
+                    <div><span class="inputItem">체중 (kg)</span><input placeholder="체중을 입력해주세요!"></div>
+                    <div><span class="inputItem">골격근량 (kg)</span><input placeholder="골격근량을 입력해주세요!"></div>
+                    <div><span class="inputItem">체지방량</span><input placeholder="체지방량을 입력해주세요!"></div>
+                    <div><sapn class="inputItem">BMI</sapn><input placeholder="BMI를 입력해주세요!"></div>
+                    <div><span class="inputItem">체지방률</span><input placeholder="골격근량을 입력해주세요!"></div>
+                    <button type="button" class="btn btn-outline-light" id="button">입력</button>
+                </div>
+            </div>
+        </section>
+
+        <section id="sc2" class="section" name="차트">
+            <div class="container">
+                <div class = "gym">
+                    <div class="tab">  <!--버튼 만들기-->
+                      <button class="tablinks" onclick="openCity(event, 'weightChart')" id="defaultOpen">체중</button>
+                      <button class="tablinks" onclick="openCity(event, 'muscleChart')" >골격근량</button>
+                      <button class="tablinks" onclick="openCity(event, 'fatChart')" >체지방량</button>
+                      <button class="tablinks" onclick="openCity(event, 'bmiChart')" >BMI</button>
+                      <button class="tablinks" onclick="openCity(event, 'fatperChart')" >체지방률</button>
+                    </div>
+                    <div id="weightChart" class="tabcontent">
+                        <canvas id="myChart"></canvas>
+                    </div>
+                    <div id="muscleChart" class="tabcontent">
+                        <canvas id="myChart2"></canvas>
+                    </div>
+                    <div id="fatChart" class="tabcontent">
+                        <canvas id="myChart3"></canvas>
+                    </div>
+                    <div id = "bmiChart" class = "tabcontent">
+                        <canvas id="myChart4"></canvas>
+                    </div>
+
+                    <div id = "fatperChart" class = "tabcontent">
+                        <canvas id="myChart5"></canvas>
+                    </div>
+                  </div>                
+            </div>
+        </section>
+    </div>
+</body>
+</html>

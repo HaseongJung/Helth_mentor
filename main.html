@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Black+Han+Sans&family=Do+Hyeon&family=Gowun+Dodum&family=Jua&family=Libre+Baskerville:wght@700&family=Noto+Sans+KR:wght@400;500;700;900&display=swap" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.0.9/fullpage.min.js"></script>
+    <script src="js/jquery-3.5.1.min.js"></script>
+    <script src="js/jquery.fullpage.js"></script>
+    <link href="js/jquery.fullpage.css" rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+	<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script type="text/javascript" src="http://davidlynch.org/projects/maphilight/jquery.maphilight.min.js"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link href="/media/mini.png" rel="icon">
+    <title>Health Mentor</title>
+    <link rel="stylesheet" href="css/main.css" type="text/css">
+    <script defer src="js/main.js"></script>
+</head>
+<body>
+    <header>
+        <ul id="menu1">
+            <li><button type="button" onclick="location.href='#유산소'" class="menuItem" id="bt1">유산소</button>
+              <ul class = "submenu">
+                  <li><a href="cardio.html#런닝머신">런닝머신</a></li>
+                  <li><a href="cardio.html#사이클">사이클</a></li>
+                  <li><a href="cardio.html#스텝밀">스텝밀</a></li>
+              </ul>
+          </li>
+        </ul>
+        <ul id="menu2">
+            <li><button type="button" onclick="location.href='#무산소'" class="menuItem" id="bt2">무산소</button>
+              <ul class = "submenu">
+                <li><a href="weight.html#가슴">가슴</a></li>
+                <li><a href="weight.html#등">등</a></li>
+                <li><a href="weight.html#어깨">어깨</a></li>
+                <li><a href="weight.html#팔">팔</a></li>
+                <li><a href="weight.html#하체">하체</a></li>
+            </ul>
+          </li>
+        </ul>
+        <li id="logo"><button type="button" onclick="location.href='main.html'" class="logo" id="bt3">HEALTH MENTOR</button></li>
+        <ul id="menu3">
+            <li><button type="button" onclick="location.href='#기록'" class="menuItem" id="bt4">기록</button></li>
+        </ul>
+        <ul id="menu4">  
+            <li><button type="button" onclick="location.href='#헬스장 찾기'" class="menuItem" id="bt5">헬스장 찾기</button></li>
+        </ul> 
+    </header>
+
+    <div id="fullpage">
+        <section id="sc1" class="section" name="명언">
+            <div>
+                <div id="quote" data-aos="zoom-in-up" data-aos-duration="1500">명언명언</div>
+            </div>
+        </section>
+
+        <section id="sc2" class="section">
+            <div id = "you" class="animated fadeInUp">
+                <div id = "you-title">
+                    <h1>유산소</h1>
+                </div>
+            </div>
+            <div class = "you-card" data-aos="fade-up" data-aos-duration="1000">
+                <div class = "running" onclick="location.href='cardio.html#런닝머신'">
+                    <img src="media/running-stop.gif" alt="" data-animated="media/running.gif" data-static="media/running-stop.gif" class="hov-anim">
+                    <h1>런닝머신</h1>
+                </div>
+                <div class = "cycling" onclick="location.href='cardio.html#사이클'">
+                    <img src="media/cycling-stop.gif" alt="" data-animated="media/cycling.gif" data-static="media/cycling-stop.gif" class="hov-anim">
+                    <h1>사이클</h1>
+                </div>
+                <div class = "stepmill" onclick="location.href='cardio.html#스텝밀'">
+                    <img src="media/stepmill-stop.gif" alt="" data-animated="media/stepmill.gif" data-static="media/stepmill-stop.gif" class="hov-anim">
+                    <h1>스텝밀</h1>
+                </div>
+            </div>
+        </section>
+
+        <section id="sc3" class="section" name="무산소">
+            <div>
+                <h1>무산소</h1>
+                <div id="bodyImg" data-aos="zoom-in" data-aos-duration="1000">
+                    <img src="media/body5.png" usemap="#imgmap">
+                    <map id="imgmap" name="imgmap" data-aos="fade-up" data-aos-duration="1000">
+                        <area shape="circle" alt="어깨" coords="270,122,19" href="weight.html#어깨" title="어깨 운동하러 가기!">
+                        <area shape="circle" alt="가슴" coords="209,160,18" href="weight.html#가슴" title="가슴 운동하러 가기!">
+                        <area shape="circle" alt="등" coords="163,197,18" href="weight.html#등" title="등 운동하러 가기!">
+                        <area shape="circle" alt="팔" coords="283,200,19" href="weight.html#팔" title="팔 운동하러 가기!">
+                        <area shape="circle" alt="하체" coords="243,340,21" href="weight.html#하체" title="하체 운동하러 가기!">
+                    </map>
+                </div>
+                <div id="tooltip_box"><span id="tooltip">운동하고 싶은 부위를 클릭하세요!</span></div>
+            </div>
+        </section>
+
+        <section id="sc4" class="section" name="기록">
+            <div class="container">
+                    <h1>오늘 할 운동</h1>
+                    <form class="d-flex justify-content-center align-items-center mb-4" id="inputForm">
+                        <div class="form-outline flex-fill">
+                            <input type="text" id="form3" class="form-control form-control-lg" placeholder="Enter your to do list."/>
+                        </div>
+                        <button type="submit" class="btn btn-outline-light" id="addToDo">추가하기</button>
+                    </form>
+                    <ul class="list-group mb-0" id="toDoList" data-aos="fade-up" data-aos-duration="3000">
+                        <li class="list-group-item d-flex justify-content-between align-items-center border-start-0 border-top-0 border-end-0 border-bottom rounded-0 mb-2" class="toDoList-item">
+                            <div class="d-flex align-items-center" sytle="margin-left:10px">
+                                <input class="form-check-input me-2" type="checkbox" value="" aria-label="...">
+                                러닝 머신 5km
+                            </div>
+                            <a href="#!" data-mdb-toggle="tooltip" title="Remove item">
+                                <i class="fas fa-times text-white">X</i>
+                            </a>
+                        </li>
+                        <li class="list-group-item d-flex justify-content-between align-items-center border-start-0 border-top-0 border-end-0 border-bottom rounded-0 mb-2" class="toDoList-item">
+                          <div class="d-flex align-items-center" sytle="margin-left:10px">
+                            <input class="form-check-input me-2" type="checkbox" value="" aria-label="...">
+                            벤치 프레스 100kg 20회 3세트
+                          </div>
+                          <a href="#!" data-mdb-toggle="tooltip" title="Remove item">
+                            <i class="fas fa-times text-white">X</i>
+                          </a>
+                        </li>
+                    </ul>
+                    <button type="button" class="btn btn-outline-light" id="inbodyBTN" onclick="location.href='record.html'";>InBody 기록하러 가기!</button>
+            </div>
+        </section>
+
+        <section id="sc5" class="section" name="헬스장 찾기">
+            <div id = "find">
+                <h1> 가까운 HEALTH MENTOR GYM 찾기</h1>
+                <div class="container" data-aos="fade-up" data-aos-duration="1000">
+                  <div class = "search">
+                    <input type="text" class= "search-blank" placeholder="&nbsp;&nbsp;&nbsp;찾으실 지역을 검색해주세요!"></input>
+                    <button class = "search-btn">검색</button>
+                  </div>
+                  <div class = "gym">
+                    <div class="tab">  <!--버튼 만들기-->
+                      <button class="tablinks" onclick="openCity(event, 'daejin')" id="defaultOpen">Health Mentor 대진대점</button>
+                      <button class="tablinks" onclick="openCity(event, 'nowon')" >Health Mentor 노원역점</button>
+                      <button class="tablinks" onclick="openCity(event, 'deokjeong')" >Health Mentor 덕정역점</button>
+                      <button class="tablinks" onclick="openCity(event, 'taeneung')" >Health Mentor 태릉입구역점</button>
+                      <button class="tablinks" onclick="openCity(event, 'suraksan')" >Health Mentor 수락산역점</button>
+                      <button class="tablinks" onclick="openCity(event, 'madeul')">Health Mentor 마들역</button>
+                      <button class="tablinks" onclick="openCity(event, 'gangdong')">Health Mentor 강동역</button>
+                      <button class="tablinks" onclick="openCity(event, 'cheonho')">Health Mentor 천호역</button>
+                      <button class="tablinks" onclick="openCity(event, 'junghwa')">Health Mentor 중화역</button>
+                      <button class="tablinks" onclick="openCity(event, 'samsong')">Health Mentor 삼송역</button>
+                      <button class="tablinks" onclick="openCity(event, 'gupabal')">Health Mentor 구파발역</button>
+                      <button class="tablinks" onclick="openCity(event, 'pyeongnae')">Health Mentor 평내호평역</button>
+                      <button class="tablinks" onclick="openCity(event, 'daehwa')">Health Mentor 대화역</button>
+                      <button class="tablinks" onclick="openCity(event, 'jamsil')">Health Mentor 잠실역</button>
+                    </div>
+                    
+                    <div id="daejin" class="tabcontent">
+                      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3158.3120407680967!2d127.05761400000002!3d37.665375!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x357cb93cc02ee5e7%3A0xc601cd6bb4bb2a19!2z66eI65Ok7Jet!5e0!3m2!1sko!2skr!4v1686235063305!5m2!1sko!2skr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+                    
+                    <div id="nowon" class="tabcontent">
+                      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3158.3120407680967!2d127.05761400000002!3d37.665375!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x357cb93cc02ee5e7%3A0xc601cd6bb4bb2a19!2z66eI65Ok7Jet!5e0!3m2!1sko!2skr!4v1686235063305!5m2!1sko!2skr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+                    
+                    <div id="deokjeong" class="tabcontent">
+                      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3150.729585858103!2d127.06151100000001!3d37.843216!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x357cc4c09fd70651%3A0xcd83f7ebc90aaf40!2z642V7KCV7Jet!5e0!3m2!1sko!2skr!4v1686229374590!5m2!1sko!2skr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+                    <div id = "taeneung" class = "tabcontent">
+                      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3160.3306879324396!2d127.07284581744388!3d37.617908499999984!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x357cbbc9271095d7%3A0xf2a5c34b22f8440a!2z7YOc66aJ7J6F6rWs7Jet!5e0!3m2!1sko!2skr!4v1686229418208!5m2!1sko!2skr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+
+                    <div id = "suraksan" class = "tabcontent">
+                      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3157.7798269035698!2d127.05529299999999!3d37.677881000000006!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x357cb8d8c6f89abb%3A0x600ef43f495c978a!2z7IiY65297IKw7Jet!5e0!3m2!1sko!2skr!4v1686229528437!5m2!1sko!2skr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+
+                    <div id = "madeul" class = "tabcontent">
+                      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3158.3120407680967!2d127.05761400000002!3d37.665375!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x357cb93cc02ee5e7%3A0xc601cd6bb4bb2a19!2z66eI65Ok7Jet!5e0!3m2!1sko!2skr!4v1686229567892!5m2!1sko!2skr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+
+                    <div id = "gangdong" class = "tabcontent">
+                      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3163.811522557336!2d127.132187!3d37.53593999999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x357caffdcecf695b%3A0x603aec7a4dedeb7f!2z6rCV64-Z7Jet!5e0!3m2!1sko!2skr!4v1686239131076!5m2!1sko!2skr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></div>
+
+                    <div id = "cheonho" class = "tabcontent">
+                      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d25308.035036058798!2d127.12650979999997!3d37.54317889999998!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x357cb000eab7937f%3A0x8d958b505a4cd82c!2z7ISc7Jq47Yq567OE7IucIOqwleuPmeq1rCDsspztmLjrj5k!5e0!3m2!1sko!2skr!4v1686239154431!5m2!1sko!2skr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+                    
+                    <div id = "junghwa" class = "tabcontent">
+                      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d12644.289004883627!2d127.07842945000006!3d37.60045854999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x357cbbac3a2f9403%3A0x6497d5f2f89c7e63!2z7ISc7Jq47Yq567OE7IucIOykkeuekeq1rCDspJHtmZTrj5k!5e0!3m2!1sko!2skr!4v1686239182814!5m2!1sko!2skr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+
+                    <div id = "samsong" class = "tabcontent">
+                      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3158.8344478691306!2d126.89555899999999!3d37.653096!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x357c971a231864df%3A0xc78862e3cebdfb89!2z7IK87Iah7Jet!5e0!3m2!1sko!2skr!4v1686239212297!5m2!1sko!2skr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+
+                    <div id = "gupabal" class = "tabcontent">
+                      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3159.51896478996!2d126.91789400000002!3d37.637001500000004!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x357c97a3ac77e475%3A0x83734d559f3dcb04!2z6rWs7YyM67Cc7Jet!5e0!3m2!1sko!2skr!4v1686239234421!5m2!1sko!2skr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe> 
+                    </div>
+
+                    <div id = "pyeongnae" class = "tabcontent">
+                      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3158.8287901932895!2d127.244452!3d37.653229!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x357cca7ab2b7c20b%3A0x1046c24e821fa1d5!2z7Y-J64K07Zi47Y-J7Jet!5e0!3m2!1sko!2skr!4v1686239256318!5m2!1sko!2skr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+
+                    <div id = "daehwa" class = "tabcontent">
+                      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3157.864860996389!2d126.7477558!3d37.6758831!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x357c857d107f25f1%3A0x46b06948e991888e!2z64yA7ZmU7Jet!5e0!3m2!1sko!2skr!4v1686239523120!5m2!1sko!2skr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe> 
+                    </div>
+
+                    <div id = "jamsil" class = "tabcontent">
+                      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3164.7799418279997!2d127.09893197036133!3d37.51310801541479!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x357ca5a09d6d983f%3A0xf7b5768e3d2aa8b7!2z7J6g7Iuk7JetLuuhr-uNsOyblOuTnOuqsA!5e0!3m2!1sko!2skr!4v1686239656383!5m2!1sko!2skr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+                  </div>
+                </div>
+            </div>  
+        </sction>
+    </div>
+</body>
+</html>

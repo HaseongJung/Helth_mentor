@@ -1,0 +1,200 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body {
+    width: 100vw;
+    height: 500vh;
+    z-index: 0;
+    background-image: linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.75)),url(media/main_bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    font-family: 'Do Hyeon', sans-serif;
+}
+/* header */
+header{
+    position: relative;
+    width: 100%;
+    height: 15%;
+    position: fixed;
+    display: grid;
+    grid-template-columns: 1fr 1fr 3fr 1fr 1fr;
+    z-index: 1;
+}
+#menu1, #menu2, #menu3, #menu4 {
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+header li{
+    font-size: large;
+    width: 100%;
+    text-align: center;
+    list-style: none;
+}
+ul{
+    list-style: none;
+}
+button{
+    border: 0;
+    background-color: transparent;
+    color: white;
+    width: 100%;
+    height: 100px;
+    font-size: x-large;
+    padding: 0 5px;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+.logo {
+    font-family: 'Libre Baskerville', serif;
+    font-size: 2.5em;
+    width: 80%;
+    font-style: italic;
+}
+.menuItem {
+    font-family: 'Noto Sans KR', sans-serif;
+    letter-spacing: 2px;
+    font-size: 1.5em;
+    font-weight: 700;
+}
+#menu1 li:after, #menu1 li:before, #menu2 li:after, #menu2 li:before, #menu3 li:after, #menu3 li:before, #menu4 li:after, #menu4 li:before, #logo:after, #logo:before {
+    content: "";
+    position: absolute;
+    width: 0%;
+    display: block;
+    height: 1px;
+    transition: all 0.3s ease;
+    margin-top: 2px;
+    transition: all 300ms ease-in;
+}
+#menu1 li:after, #menu2 li:after,#menu3 li:after,#menu4 li:after #logo:after {
+    content: "";
+    position: absolute;
+    width: 0%;
+    height: 1px;
+    display: block;
+    transition: all 0.3s ease;
+    bottom: 25%;
+}
+#menu1 li:hover::after, #menu2 li:hover::after, #menu3 li:hover::after, #menu4 li:hover::after 
+{
+    width: 14.3%;
+    height: 1px;
+    background-color: #fff;
+}
+#logo:hover::after {
+    position: absolute;
+    text-align: center;
+    width: 43%;
+    height: 1px;
+    background-color: #fff;
+}
+button:hover {
+    cursor: pointer;
+}
+#menu1 > li {
+    float: left;
+    text-align: center;
+    line-height: 40px;
+}
+#menu1 a, #menu2 a {
+    color: #fff;
+    text-decoration-line: none;
+}
+#menu2 > li {
+    float: left;
+    text-align: center;
+    line-height: 40px;
+}
+.submenu {
+    height: 0; /*ul의 높이를 안보이게 처리*/
+    overflow: hidden;
+}
+#menu1 > li:hover {
+    background-color: #00000089;
+    transition-duration: 0.5s;
+}
+#menu1 > li:hover .submenu {
+    height: 121px; /*서브메뉴 li한개의 높이 50*5*/
+    transition-duration: 1s;
+}
+#menu2 > li:hover {
+    background-color: #00000089;
+    transition-duration: 0.5s;
+}
+#menu2 > li:hover .submenu {
+    height: 201px; /*서브메뉴 li한개의 높이 50*5*/
+    transition-duration: 1s;
+}
+#sc1 {
+    width: 100%;
+    height: 100%;
+    z-index: 0; 
+    background-image: linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.75)),url(../media/running_bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: black;
+    background-position: 10%;
+}
+.slide {
+    width: 100vw;
+    height: 100%; 
+}
+#sc2 {
+    width: 100%;
+    height: 100vh;
+    z-index: 0; 
+    background-image: linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.75)),url(../media/cycling.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 10%;
+}
+#sc3 {
+    width: 100%;
+    height: 100vh;
+    z-index: 0; 
+    background-image: linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.75)),url(../media/stepmill.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 10%;
+}
+.container {
+    width: 100%;
+    height: 90%;
+    margin-top: 5%;
+}
+
+.main {
+    width: 60%;
+    height: 80%;
+    margin-left: 20%;
+    margin-top: 10%;
+}
+.partName {
+    width: 100%;
+    height: 10%;
+    text-align: center;
+    font-size: 200%;
+    font-weight: 300;
+    margin-bottom: 3%;
+}
+.head{
+    font-size: 2.5em;
+    margin: 2% 0 2% 0;
+}
+.time{
+    font-size: 1.8em;
+    margin: 2% 0 2% 0;
+}
+.order{
+    font-size: 1.5em;
+    margin: 2% 0 2% 0;
+}
+.order p{
+    line-height: 150%;
+}

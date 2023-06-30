@@ -1,0 +1,253 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    }
+    body {
+      width: 100vw;
+      height: 500vh;
+      color: white;
+      font-family: 'Do Hyeon', sans-serif;
+    }
+    /* header */
+    header{
+        position: relative;
+        width: 100%;
+        height: 15%;
+        position: fixed;
+        display: grid;
+        grid-template-columns: 1fr 1fr 3fr 1fr 1fr;
+        z-index: 1;
+    }
+    #menu1, #menu2, #menu3, #menu4 {
+        display: inline-block;
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: space-around;
+    }
+    li{
+        font-size: large;
+        width: 100%;
+        text-align: center;
+        list-style: none;
+    }
+    ul{
+        list-style: none;
+    }
+    button{
+        border: 0;
+        background-color: transparent;
+        color: white;
+        width: 100%;
+        height: 100px;
+        font-size: x-large;
+        padding: 0 5px;
+        text-transform: uppercase;
+        text-decoration: none;
+    }
+    .logo {
+        font-family: 'Libre Baskerville', serif;
+        font-size: 2.5em;
+        width: 80%;
+        font-style: italic;
+    }
+    .menuItem {
+        font-family: 'Noto Sans KR', sans-serif;
+        letter-spacing: 2px;
+        font-size: 1.5em;
+        font-weight: 700;
+    }
+    #menu1 li:after, #menu1 li:before, #menu2 li:after, #menu2 li:before, #menu3 li:after, #menu3 li:before, #menu4 li:after, #menu4 li:before, #logo:after, #logo:before {
+        content: "";
+        position: absolute;
+        width: 0%;
+        display: block;
+        height: 1px;
+        transition: all 0.3s ease;
+        margin-top: 2px;
+        transition: all 300ms ease-in;
+    }
+    #menu1 li:after, #menu2 li:after,#menu3 li:after,#menu4 li:after #logo:after {
+        content: "";
+        position: absolute;
+        width: 0%;
+        height: 1px;
+        display: block;
+        transition: all 0.3s ease;
+        bottom: 25%;
+    }
+    #menu1 li:hover::after, #menu2 li:hover::after, #menu3 li:hover::after, #menu4 li:hover::after 
+    {
+        width: 14.3%;
+        height: 1px;
+        background-color: #fff;
+    }
+    #logo:hover::after {
+        text-align: center;
+        left: 25.5%;
+        width: 45%;
+        height: 1px;
+        background-color: #fff;
+    }
+    button:hover {
+        cursor: pointer;
+    }
+    #menu1 > li {
+        float: left;
+        text-align: center;
+        line-height: 40px;
+    }
+    #menu1 a, #menu2 a {
+        color: #fff;
+        text-decoration-line: none;
+    }
+    #menu2 > li {
+        float: left;
+        text-align: center;
+        line-height: 40px;
+    }
+    .submenu {
+        height: 0; /*ul의 높이를 안보이게 처리*/
+        overflow: hidden;
+    }
+    #menu1 > li:hover {
+        background-color: #00000089;
+        transition-duration: 0.5s;
+    }
+    #menu1 > li:hover .submenu {
+        height: 121px; /*서브메뉴 li한개의 높이 50*5*/
+        transition-duration: 1s;
+    }
+    #menu2 > li:hover {
+        background-color: #00000089;
+        transition-duration: 0.5s;
+    }
+    #menu2 > li:hover .submenu {
+        height: 201px; /*서브메뉴 li한개의 높이 50*5*/
+        transition-duration: 1s;
+    }
+    #sc1 {
+        width: 100%;
+        height: 100%;
+        z-index: 0; 
+        background-image: linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.75)),url(../media/chest_bg.png);
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: 50%;
+        background-color: black;
+    }
+    .slide {
+        width: 100vw;
+        height: 100%; 
+    }
+    #sc2 {
+        width: 100%;
+        height: 100vh;
+        z-index: 0; 
+        background-image: linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.75)),url(../media/back_bg2.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: 10%;
+    }
+    #sc3 {
+        width: 100%;
+        height: 100vh;
+        z-index: 0; 
+        background-image: linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.75)),url(../media/shoulder_bg.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: 10%;
+    }
+    #sc4 {
+        width: 100%;
+        height: 100vh;
+        z-index: 0; 
+        background-image: linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.75)),url(../media/arms_bg.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: 10%;
+    }
+    #sc5 {
+        width: 100%;
+        height: 100vh;
+        z-index: 0; 
+        background-image: linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.75)),url(../media/leg_bg.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: 10%;
+    }
+    .container {
+        margin-top: 7%;
+        width: 100vw;
+        height: 85%;
+        bottom: 0;
+        display: grid;
+        grid-template-columns: 1fr 7fr 1fr;
+    }
+    .sideR {
+        font-size: 3.5em;
+        writing-mode: vertical-rl;
+        letter-spacing: 10px;
+        margin: auto;
+        vertical-align: middle;
+    }
+    .main {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    .partName {
+        width: 100%;
+        height: 10%;
+        text-align: center;
+        font-size: 200%;
+        margin-bottom: 1%;
+        font-weight: 300;
+    }
+    .partName h1 {
+        font-weight: 500;
+    }
+    .media {
+        width: 100%;
+        height: 40%;
+        display: flex;
+        justify-content: space-around;
+    }
+    .media video {
+        width: 50%;
+    }
+    .explain {
+        padding: 5% 10%;
+        width: 100%;
+        height: 40%;
+        margin: 0 auto;
+    }
+    .explain p{
+        font-size: x-large;
+        line-height: 150%;
+    }
+    #slide3 .exerName, #slide4 .exerName, #slide8 .exerName, #slide9 .exerName, #slide10 .exerName, #slide11 .exerName, #slide16 .exerName, #slide20 .exerName {
+        font-size: 0.7em;
+    }
+    #slide1 .explain, #slide2 .explain, #slide3 .explain, #slide4 .explain, #slide6 .explain, #slide7 .explain, #slide9 .explain,#slide10 .explain,#slide14 .explain,#slide18 .explain,#slide20 .explain {
+        padding-top: 6%;
+    }
+    #slide5 .explain, #slide8 .explain, #slide15 .explain, #slide16 .explain, #slide17 .explain, #slide19 .explain,#slide21 .explain, #slide23 .explain{
+        padding-top: 8%;
+    }
+    #slide11 .explain, #slide12 .explain {
+        padding-top: 5%;
+    }
+    #slide11 .explain p, #slide12 .explain p {
+        line-height: 300%;
+    }
+    #slide13 .explain{
+        width: 101%;
+        padding-top: 6%;
+    }
+    #slide22 .explain{
+        width: 103%;
+        padding-top: 4%;
+    }

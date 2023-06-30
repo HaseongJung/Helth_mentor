@@ -1,0 +1,371 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body {
+    width: 100vw;
+    height: 500vh;
+    z-index: 0;
+    background-image: linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.75)),url('../media/main_bg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    font-family: 'Do Hyeon', sans-serif;
+}
+header{
+    position: relative;
+    width: 100%;
+    height: 15%;
+    position: fixed;
+    display: grid;
+    grid-template-columns: 1fr 1fr 3fr 1fr 1fr;
+    z-index: 1;
+}
+#menu1, #menu2, #menu3, #menu4 {
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+li{
+    font-size: large;
+    width: 100%;
+    text-align: center;
+    list-style: none;
+}
+ul{
+    list-style: none;
+}
+button{
+    border: 0;
+    background-color: transparent;
+    color: white;
+    width: 100%;
+    height: 100px;
+    font-size: x-large;
+    padding: 0 5px;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+.logo {
+    font-family: 'Libre Baskerville', serif;
+    font-size: 2.5em;
+    width: 80%;
+    font-style: italic;
+}
+.menuItem {
+    font-family: 'Noto Sans KR', sans-serif;
+    letter-spacing: 2px;
+    font-size: 1.5em;
+    font-weight: 700;
+}
+#menu1 li:after, #menu1 li:before, #menu2 li:after, #menu2 li:before, #menu3 li:after, #menu3 li:before, #menu4 li:after, #menu4 li:before, #logo:after, #logo:before {
+    content: "";
+    position: absolute;
+    width: 0%;
+    display: block;
+    height: 1px;
+    transition: all 0.3s ease;
+    margin-top: 2px;
+    transition: all 300ms ease-in;
+}
+#menu1 li:after, #menu2 li:after,#menu3 li:after,#menu4 li:after #logo:after {
+    content: "";
+    position: absolute;
+    width: 0%;
+    height: 1px;
+    display: block;
+    transition: all 0.3s ease;
+    bottom: 25%;
+}
+#menu1 li:hover::after, #menu2 li:hover::after, #menu3 li:hover::after, #menu4 li:hover::after 
+{
+    width: 14.3%;
+    height: 1px;
+    background-color: #fff;
+}
+#logo:hover::after {
+    position: absolute;
+    text-align: center;
+    width: 43%;
+    height: 1px;
+    background-color: #fff;
+}
+button:hover {
+    cursor: pointer;
+}
+#menu1 > li {
+    float: left;
+    text-align: center;
+    line-height: 40px;
+}
+#menu1 a, #menu2 a {
+    color: #fff;
+    text-decoration-line: none;
+}
+#menu2 > li {
+    float: left;
+    text-align: center;
+    line-height: 40px;
+}
+.submenu {
+    height: 0; /*ul의 높이를 안보이게 처리*/
+    overflow: hidden;
+}
+#menu1 > li:hover {
+    background-color: #00000089;
+    transition-duration: 0.5s;
+}
+#menu1 > li:hover .submenu {
+    height: 121px; /*서브메뉴 li한개의 높이 50*5*/
+    transition-duration: 1s;
+}
+#menu2 > li:hover {
+    background-color: #00000089;
+    transition-duration: 0.5s;
+}
+#menu2 > li:hover .submenu {
+    height: 201px; /*서브메뉴 li한개의 높이 50*5*/
+    transition-duration: 1s;
+}
+#sc1 > div, #sc5 > div {
+    position: absolute; 
+    width: 100%;
+    height: 85%;
+    bottom: 0;
+}
+#quote{
+    color: #fff;
+    text-align: center;
+    font-size: 3em;
+    margin-top: 16%;
+}
+#you h1{
+    color: #fff;
+    font-size: 3em;
+    text-align: center;
+    padding: 8% 0 0 0;
+}
+
+#you-title{
+    color: #fff;
+    font-size: 1.5em;
+    text-align: center;
+}
+#youbt{
+    color: #fff;
+    font-size: 2.5em;
+    text-align: center;
+    display: grid;
+    grid-template-areas:
+        "a1 a2 a3";
+    grid-gap: 5px;
+    padding: 0 10% 0 10%;
+    margin-top: 10%;
+}
+
+#sc3 > div{
+    position: absolute;
+    bottom: 0;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 85%;
+    align-items: center;
+}
+#bodyImg {
+    margin-left: -25%;
+    margin-top: -1%;
+    height: 77%;
+}
+#tooltip_box {
+    flex-basis: 10%;
+    position: absolute;
+    left: 50%;
+    top: 40%;
+}
+#sc3 h1 {
+    font-size: 4em;
+}
+#tooltip {
+    font-size: 2em;
+}
+.you-card{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 80%;
+    height: 50%;
+    margin-left: 10%;
+    margin-top: 5%;
+}
+.running, .cycling, .stepmill{
+    width: 20%;
+    height: 100%;
+    border-top-left-radius: 5%;
+    border-top-right-radius: 5%;
+    transition: all 0.2s linear;
+}
+.running:hover, .cycling:hover, .stepmill:hover{
+    transform: scale(1.3);
+    border-top-left-radius: 5%;
+    border-top-right-radius: 5%;
+    cursor: pointer;
+}
+.running img, .cycling img, .stepmill img{
+    width: 100%;
+    height: 80%;
+    border-radius: 5%;
+}
+.running h1, .cycling h1, .stepmill h1{
+    color: #fff;
+    text-align: center;
+    height: 20%;
+}
+#find h1{
+  color: #fff;
+  width: 60%;
+  margin-left: 20%;
+  font-size: 2em;
+  text-align: center;
+}
+.container{
+  width: 60%;
+  height: 80%;
+  margin-top: 3%;
+  margin-left: 20%;
+}
+.search{
+  color: #fff;
+  display: flex;
+  height: 10%;
+  width: 100%;
+  background-color: rgba(210, 235, 253, 0.595);
+  margin-bottom: 2%;
+  border-radius: 10px;
+  font-family: 'Do Hyeon', sans-serif;
+}
+.search:hover{
+    background-color: rgb(161,214,251);
+}
+.search-blank{
+  width: 90%;
+  height: 100%;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  font-family: 'Do Hyeon', sans-serif;
+}
+.search-btn{
+  color: #fff;
+  width: 10%;
+  height: 100%;
+  font-family: 'Do Hyeon', sans-serif;
+}
+.gym{
+  width: 100%;
+  height: 90%;
+  display: flex;
+}
+.tab{
+  background-color: #f1f1f1;
+  width: 30%;
+  height: 100%;
+  overflow-y: scroll; 
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+.tab button {
+  display: block;
+  background-color: inherit;
+  color: black;
+  width: 100%;
+  border: none;
+  outline: none;
+  text-align: left;
+  cursor: pointer;
+  transition: 0.3s;
+  font-size: 17px;
+  font-family: 'Do Hyeon', sans-serif;
+}
+/* Change background color of buttons on hover */
+.tab button:hover {
+  background-color: #ddd;
+}
+
+/* Create an active/current "tab button" class */
+.tab button.active {
+  background-color: rgb(144,207,251);
+}
+.tab::-webkit-scrollbar {
+    width: 10px;
+}
+.tab::-webkit-scrollbar-thumb {
+    background-color: rgb(14,150,245);
+    border-radius: 10px;
+    background-clip: padding-box;
+    border: 2px solid transparent;
+}
+.tab::-webkit-scrollbar-track {
+    background-color: rgb(3,42,69);
+    border-radius: 10px;
+    box-shadow: inset 0px 0px 5px white;
+}
+/* Style the tab content */
+.tabcontent {
+  float: left;
+  width: 70%;
+  border-left: none;
+  height: 100%;
+  color: #ccc;
+  font-family: 'Do Hyeon', sans-serif;
+}
+iframe{
+  width: 100%;
+  height: 100%;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+.number{
+    text-align: right;
+    font-size: small;
+}
+#sc4 .container {
+    position: absolute;
+    margin-top: 9%;
+    display: flex;
+    flex-direction: column;
+}
+#inputForm {
+    margin-top: 10px;
+    margin-bottom: 50px !important;
+}
+#form3 {
+    background: none;
+    border: none;
+    border-bottom: 1px solid white;
+    width: 95%;
+    margin: 0 10px;
+}
+#addToDo {
+    width: 10%;
+    height: 100%;
+}
+.list-group-item {
+    background: none;
+}
+.form-check-input.me-2 {
+    width: 18px;
+    height: 20px;
+}
+#toDoList {
+    height: 60%;
+    margin-bottom: 10px !important;
+}
+#inbodyBTN {
+    display: inline-block;
+    width: 20%;
+    height: 7%;
+    margin: 0 auto;
+}

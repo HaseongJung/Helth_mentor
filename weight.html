@@ -1,0 +1,503 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Black+Han+Sans&family=Do+Hyeon&family=Gowun+Dodum&family=Jua&family=Libre+Baskerville:wght@700&family=Noto+Sans+KR:wght@400;500;700;900&display=swap" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.0.9/fullpage.min.js"></script>
+    <script src="js/jquery-3.5.1.min.js"></script>
+    <script src="js/jquery.fullpage.js"></script>
+    <link href="js/jquery.fullpage.css" rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+	<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+    <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+    <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+    <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+    <link href="/media/mini.png" rel="icon">
+    <title>Health Mentor</title>
+    <link href="css/weight.css" rel="stylesheet">
+    <script src="js/weight.js"></script>
+</head>
+<body>
+    <header>
+        <ul id="menu1">
+            <li><button type="button" onclick="location.href='main.html#유산소'" class="menuItem" id="bt1">유산소</button>
+              <ul class = "submenu">
+                  <li><a href="cardio.html#런닝머신">런닝머신</a></li>
+                  <li><a href="cardio.html#사이클">사이클</a></li>
+                  <li><a href="cardio.html#스텝밀">스텝밀</a></li>
+              </ul>
+          </li>
+        </ul>
+        <ul id="menu2">
+            <li><button type="button" onclick="location.href='main.html#무산소'" class="menuItem" id="bt2">무산소</button>
+              <ul class = "submenu">
+                <li><a href="weight.html#가슴">가슴</a></li>
+                <li><a href="weight.html#등">등</a></li>
+                <li><a href="weight.html#어깨">어깨</a></li>
+                <li><a href="weight.html#팔">팔</a></li>
+                <li><a href="weight.html#하체">하체</a></li>
+            </ul>
+          </li>
+        </ul>
+        <li id="logo"><button type="button" onclick="location.href='main.html'" class="logo" id="bt3">HEALTH MENTOR</button></li>
+        <ul id="menu3">
+            <li><button type="button" onclick="location.href='main.html#기록'" class="menuItem" id="bt4">기록</button></li>
+        </ul>
+        <ul id="menu4">  
+            <li><button type="button" onclick="location.href='main.html#헬스장 찾기'" class="menuItem" id="bt5">헬스장 찾기</button></li>
+        </ul> 
+    </header>
+
+    <div id="fullpage">
+        <section id="sc1" class="section" name="가슴">
+            <div class="slide" id="slide1">
+                <div class="container">
+                    <div class="sideL">
+                    </div>
+                    <div class="main">
+                        <div class="partName"><h1>푸쉬업</h1></div>
+                        <div class="media" data-aos="fade-up" data-aos-duration="1000">
+                            <video src="media/pushUp1.mp4" data-autoplay muted loop></video>
+                            <video src="media/pushUp2.mp4" data-autoplay muted loop></video>
+                        </div>
+                        <div class="explain" data-aos="fade-up" data-aos-duration="1000">
+                            <p>1. 어깨 바로 아래 땅에 손을 단단히 놓으십시오.</p>
+                            <p>2. 몸 전체가 일직선이 되도록 허리를 펴고 천천히 몸을 내립니다.</p>
+                            <p>3. 견갑골을 앞뒤로 당기고 팔꿈치를 몸 가까이에 붙입니다.</p>
+                            <p>4. 숨을 내쉬면서 시작 위치로 돌아갑니다.</p>
+                        </div>
+                    </div>
+                    <div class="sideR"><span class="exerName"></span></div>
+                </div>
+            </div>
+            <div class="slide" id="slide2">
+                <div class="container">
+                    <div class="sideL"></div>
+                    <div class="main">
+                        <div class="partName"><h1>벤치 프레스</h1></div>
+                        <div class="media" data-aos="fade-up" data-aos-duration="1000">
+                            <video src="media/bench_press1.mp4" data-autoplay muted loop></video>
+                            <video src="media/bench_press2.mp4" data-autoplay muted loop></video>
+                        </div>
+                        <div class="explain" data-aos="fade-up" data-aos-duration="1000">
+                            <p>1. 바닥에 발을 대고 벤치에 평평하게 눕습니다.</p>
+                            <p>2. 곧은 팔로 바를 풉니다.</p>
+                            <p>3. 바를 가슴 중앙까지 내립니다.</p>
+                            <p>4. 팔꿈치가 잠길 때까지 막대를 올리십시오.</p>
+                        </div>
+                    </div>
+                    <div class="sideR"><span class="exerName"></span></div>
+                </div>
+            </div>
+            <div class="slide" id="slide3">
+                <div class="container">
+                    <div class="sideL"></div>
+                    <div class="main">
+                        <div class="partName"><h1>인클라인 덤벨 프레스</h1></div>
+                        <div class="media" data-aos="fade-up" data-aos-duration="1000">
+                            <video src="media/inclineBench_press1.mp4" data-autoplay muted loop></video>
+                            <video src="media/inclineBench_press2.mp4" data-autoplay muted loop></video>
+                        </div>
+                        <div class="explain" data-aos="fade-up" data-aos-duration="1000">
+                            <p>1. 발을 땅에 대고 인클라인 벤치에 평평하게 눕습니다.</p>
+                            <p>2. 팔이 곧게 펴질 때까지 덤벨을 들어 올리십시오.</p>
+                            <p>3. 덤벨을 가슴 중앙까지 내립니다.</p>
+                            <p>4. 팔꿈치가 고정될 때까지 덤벨을 들어 올리십시오.</p>
+                        </div>
+                    </div>
+                    <div class="sideR"><span class="exerName"></span></div>
+                </div>
+            </div>
+            <div class="slide" id="slide4">
+                <div class="container">
+                    <div class="sideL"></div>
+                    <div class="main">
+                        <div class="partName"><h1>인클라인 덤벨 플라이</h1></div>
+                        <div class="media" data-aos="fade-up" data-aos-duration="1000">
+                            <video src="media/incline_chest_flys1.mp4" data-autoplay muted loop></video>
+                            <video src="media/incline_chest_flys2.mp4" data-autoplay muted loop></video>
+                        </div>
+                        <div class="explain" data-aos="fade-up" data-aos-duration="1000">
+                            <p>1. 벤치에 평평하게 누워 발을 땅에 대십시오.</p>
+                            <p>2. 팔꿈치를 약간 구부린 상태에서 가슴 위에 덤벨을 함께 들고 운동을 시작합니다.</p>
+                            <p>3. 동시에 무게를 양쪽으로 내립니다.</p>
+                            <p>4. 웨이트가 벤치와 평행이 되면 잠시 멈춘 다음 팔을 시작 위치로 올립니다.</p>
+                        </div>
+                    </div>
+                    <div class="sideR"><span class="exerName"></span></div>
+                </div>
+            </div>
+        </section>
+
+        <section id="sc2" class="section" name="등">
+            <div class="slide" id="slide5">
+                <div class="container">
+                    <div class="sideL"></div>
+                    <div class="main">
+                        <div class="partName"><h1>풀 업</h1></div>
+                        <div class="media" data-aos="fade-up" data-aos-duration="1000">
+                            <video src="media/pullUp.mp4" data-autoplay muted loop></video>
+                            <video src="media/pullUp2.mp4" data-autoplay muted loop></video>
+                        </div>
+                        <div class="explain" data-aos="fade-up" data-aos-duration="1000">
+                            <p>1. 팔과 어깨를 완전히 펴고 오버핸드 그립으로 바를 잡습니다.</p>
+                            <p>2. 턱이 바 위에 올 때까지 몸을 위로 당깁니다.</p>
+                            <p>3. 몸을 다시 시작 위치로 내립니다.</p>
+                        </div>
+                    </div>
+                    <div class="sideR"><span class="exerName"></span></div>
+                </div>
+            </div>
+            <div class="slide" id="slide6">
+                <div class="container">
+                    <div class="sideL"></div>
+                    <div class="main">
+                        <div class="partName"><h1>랫 풀 다운</h1></div>
+                        <div class="media" data-aos="fade-up" data-aos-duration="1000">
+                            <video src="media/pullDown1.mp4" data-autoplay muted loop></video>
+                            <video src="media/pullDown2.mp4" data-autoplay muted loop></video>
+                        </div>
+                        <div class="explain" data-aos="fade-up" data-aos-duration="1000">
+                            <p>1. 손바닥이 앞을 향하도록 바를 잡고 양손은 어깨 너비보다 넓게 벌려야 합니다.</p>
+                            <p>2. 바를 잡고 양팔을 앞으로 쭉 뻗은 상태에서 가슴을 내밀면서 상체를 30도 정도 뒤로 젖힌다.</p>
+                            <p>3. 견갑골을 함께 조이면서 부드러운 움직임으로 바를 턱 높이까지 또는 약간 더 아래로 당깁니다.</p>
+                            <p>4. 1초 동안 조인 후 팔이 완전히 펴지면 바를 시작 위치로 천천히 들어 올립니다.</p>
+                        </div>
+                    </div>
+                    <div class="sideR"><span class="exerName"></span></div>
+                </div>
+            </div>
+            <div class="slide" id="slide7">
+                <div class="container">
+                    <div class="sideL"></div>
+                    <div class="main">
+                        <div class="partName"><h1>바벨 로우</h1></div>
+                        <div class="media" data-aos="fade-up" data-aos-duration="1000">
+                            <video src="media/barbellRow1.mp4" data-autoplay muted loop></video>
+                            <video src="media/barbellRow2.mp4" data-autoplay muted loop></video>
+                        </div>
+                        <div class="explain" data-aos="fade-up" data-aos-duration="1000">
+                            <p>1. 어깨 넓이의 회내 또는 회외 그립으로 바벨을 잡습니다.</p>
+                            <p>2. 평평한 등을 유지하면서 엉덩이를 앞으로 구부리십시오.</p>
+                            <p>3. 웨이트를 상복부 쪽으로 당깁니다.</p>
+                            <p>4. 통제된 방식으로 중량을 낮추고 반복합니다.</p>
+                        </div>
+                    </div>
+                    <div class="sideR"><span class="exerName"></span></div>
+                </div>
+            </div>
+            <div class="slide" id="slide8">
+                <div class="container">
+                    <div class="sideL"></div>
+                    <div class="main">
+                        <div class="partName"><h1>덤벨 로우</h1></div>
+                        <div class="media" data-aos="fade-up" data-aos-duration="1000">
+                            <video src="media/dumbbell_row1.mp4" data-autoplay muted loop></video>
+                            <video src="media/dumbbell_row2.mp4" data-autoplay muted loop></video>
+                        </div>
+                        <div class="explain" data-aos="fade-up" data-aos-duration="1000">
+                            <p>1. 안정적인 물체(벤치, 상자)에 반대쪽 팔을 받쳐줍니다.</p>
+                            <p>2. 운동 중인 팔 옆에 있는 다리가 뒤로 오도록 자세를 엇갈리게 하십시오.</p>
+                            <p>3. 몸통이 지면과 평행이 되도록 노력하세요. 그러면 동작 범위가 확장됩니다.</p>
+                        </div>
+                    </div>
+                    <div class="sideR"><span class="exerName"></span></div>
+                </div>
+            </div>
+            <div class="slide" id="slide9">
+                <div class="container">
+                    <div class="sideL"></div>
+                    <div class="main">
+                        <div class="partName"><h1>데드 리프트</h1></div>
+                        <div class="media" data-aos="fade-up" data-aos-duration="1000">
+                            <video src="media/deadLift.mp4" data-autoplay muted loop></video>
+                            <video src="media/deadLift2.mp4" data-autoplay muted loop></video>
+                        </div>
+                        <div class="explain" data-aos="fade-up" data-aos-duration="1000">
+                            <p>1. 발 중앙을 바 아래에 두고 어깨 너비만큼 벌린 손으로 바를 잡습니다.</p>
+                            <p>2. 무릎을 구부린 다음 등을 곧게 펴서 바를 들어 올리십시오. 허리를 곧게 펴는 것이 중요합니다.</p>
+                            <p>3. 전체 높이로 서서 유지하십시오.</p>
+                            <p>4. 무릎을 구부리고 등을 똑바로 유지하여 바를 바닥으로 내립니다.</p>
+                        </div>
+                    </div>
+                    <div class="sideR"><span class="exerName"></span></div>
+                </div>
+            </div>
+        </section>
+
+        <section id="sc3" class="section" name="어깨">
+            <div class="slide" id="slide10">
+                <div class="container">
+                    <div class="sideL"></div>
+                    <div class="main">
+                        <div class="partName"><h1>덤벨 오버헤드 프레스</h1></div>
+                        <div class="media" data-aos="fade-up" data-aos-duration="1000">
+                            <video src="media/dumbbell_overhead_press1.mp4" data-autoplay muted loop></video>
+                            <video src="media/dumbbell_overhead_press2.mp4" data-autoplay muted loop></video>
+                        </div>
+                        <div class="explain" data-aos="fade-up" data-aos-duration="1000">
+                            <p>1. 등받이가 있는 벤치에 앉습니다.</p>
+                            <p>2. 양손바닥을 앞으로 향하게 하여 아령을 어깨 높이까지 올립니다.</p>
+                            <p>3. 덤벨을 위쪽으로 올리고 수축된 위치에서 멈춥니다.</p>
+                            <p>4. 중량을 다시 시작 위치로 내립니다.</p>
+                        </div>
+                    </div>
+                    <div class="sideR"><span class="exerName"></span></div>
+                </div>
+            </div>
+            <div class="slide" id="slide11">
+                <div class="container">
+                    <div class="sideL"></div>
+                    <div class="main">
+                        <div class="partName"><h1>케이블 레터럴 레이즈</h1></div>
+                        <div class="media" data-aos="fade-up" data-aos-duration="1000">
+                            <video src="media/cable_lateral_raise1.mp4" data-autoplay muted loop></video>
+                            <video src="media/cable_lateral_raise2.mp4" data-autoplay muted loop></video>
+                        </div>
+                        <div class="explain" data-aos="fade-up" data-aos-duration="1000">
+                            <p>1. 케이블이 기계 하단까지 연결된 상태에서 핸들 부착 장치를 사용합니다.</p>
+                            <p>2. 어깨를 수직으로 잡고 팔을 옆으로 쭉 뻗어야 합니다.</p>
+                        </div>
+                    </div>
+                    <div class="sideR"><span class="exerName"></span></div>
+                </div>
+            </div>
+            <div class="slide" id="slide12">
+                <div class="container">
+                    <div class="sideL"></div>
+                    <div class="main">
+                        <div class="partName"><h1>바벨 업라이트 로우</h1></div>
+                        <div class="media" data-aos="fade-up" data-aos-duration="1000">
+                            <video src="media/barbell_upright_row1.mp4" data-autoplay muted loop></video>
+                            <video src="media/barbell_upright_row2.mp4" data-autoplay muted loop></video>
+                        </div>
+                        <div class="explain" data-aos="fade-up" data-aos-duration="1000">
+                            <p>1. 오버핸드로 어깨너비를 대충 잡습니다.</p>
+                            <p>2. 팔꿈치를 천장 위로 똑바로 당기세요. 막대를 턱 높이까지 올리거나 약간 높이는 것을 목표로 합니다.</p>
+                        </div>
+                    </div>
+                    <div class="sideR"><span class="exerName"></span></div>
+                </div>
+            </div>
+            <div class="slide" id="slide13">
+                <div class="container">
+                    <div class="sideL"></div>
+                    <div class="main">
+                        <div class="partName"><h1>바벨 오버헤드 프레스</h1></div>
+                        <div class="media" data-aos="fade-up" data-aos-duration="1000">
+                            <video src="media/barbell_overhead_press1.mp4" data-autoplay muted loop></video>
+                            <video src="media/barbell_overhead_press2.mp4" data-autoplay muted loop></video>
+                        </div>
+                        <div class="explain" data-aos="fade-up" data-aos-duration="1000">
+                            <p>1. 대략 어깨 너비를 잡습니다. 팔꿈치에서 주먹(수직 팔뚝)까지 직선이 있어야 합니다.</p>
+                            <p>2. 턱을 뒤로 당기고 팔꿈치 관절을 펴고 어깨 관절을 구부려 무게를 천장 쪽으로 누릅니다.</p>
+                            <p>3. 팔꿈치가 펴질 때까지 누르고 머리를 약간 앞으로 밀어줍니다.</p>
+                            <p>4. 컨트롤을 사용하여 시작 위치로 돌아갑니다. 턱을 뒤로 당겨 막대가 얼굴을 안전하게 통과할 수 있도록 합니다.</p>
+                        </div>
+                    </div>
+                    <div class="sideR"><span class="exerName"></span></div>
+                </div>
+            </div>
+        </section>
+
+        <section id="sc4" class="section" name="팔">
+            <div class="slide" id="slide14">
+                <div class="container">
+                    <div class="sideL"></div>
+                    <div class="main">
+                        <div class="partName"><h1>바벨 컬</h1></div>
+                        <div class="media" data-aos="fade-up" data-aos-duration="1000">
+                            <video src="media/barbell_curl1.mp4" data-autoplay muted loop></video>
+                            <video src="media/barbell_curl2.mp4" data-autoplay muted loop></video>
+                        </div>
+                        <div class="explain" data-aos="fade-up" data-aos-duration="1000">
+                            <p>1. 상완을 고정한 상태에서 숨을 내쉴 때 이두박근을 수축시키면서 웨이트를 앞으로 구부립니다.</p>
+                            <p>2. 이두박근이 완전히 수축되고 바가 어깨 높이에 올 때까지 계속 움직입니다.</p>
+                            <p>3. 수축된 자세를 잠시 유지하고 이두박근을 세게 조입니다.</p>
+                            <p>4. 천천히 무게를 시작 위치로 되돌립니다.</p>
+                        </div>
+                    </div>
+                    <div class="sideR"><span class="exerName"></span></div>
+                </div>
+            </div>
+            <div class="slide" id="slide15">
+                <div class="container">
+                    <div class="sideL"></div>
+                    <div class="main">
+                        <div class="partName"><h1>덤벨 컬</h1></div>
+                        <div class="media" data-aos="fade-up" data-aos-duration="1000">
+                            <video src="media/dumbbell_curl1.mp4" data-autoplay muted loop></video>
+                            <video src="media/dumbbell_curl2.mp4" data-autoplay muted loop></video>
+                        </div>
+                        <div class="explain" data-aos="fade-up" data-aos-duration="1000">
+                            <p>1. 팔 길이만큼 양손에 덤벨을 들고 똑바로 서십시오.</p>
+                            <p>2. 덤벨 하나를 들고 팔뚝이 수직이 되고 손바닥이 어깨를 향할 때까지 돌립니다.</p>
+                            <p>3. 원래 위치로 내리고 반대쪽 팔로 반복하십시오.</p>
+                        </div>
+                    </div>
+                    <div class="sideR"><span class="exerName"></span></div>
+                </div>
+            </div>
+            <div class="slide" id="slide16">
+                <div class="container">
+                    <div class="sideL"></div>
+                    <div class="main">
+                        <div class="partName"><h1>친 업</h1></div>
+                        <div class="media" data-aos="fade-up" data-aos-duration="1000">
+                            <video src="media/chin_up1.mp4" data-autoplay muted loop></video>
+                            <video src="media/chin_up2.mp4" data-autoplay muted loop></video>
+                        </div>
+                        <div class="explain" data-aos="fade-up" data-aos-duration="1000">
+                            <p>1. 스파네이티드 그립으로 바를 어깨 너비로 벌립니다(손바닥이 자신을 향함).</p>
+                            <p>2. 몸을 매달고 팔을 완전히 뻗은 상태에서 턱이 바를 지나갈 때까지 몸을 당깁니다.</p>
+                            <p>3. 천천히 시작 위치로 돌아갑니다.</p>
+                        </div>
+                    </div>
+                    <div class="sideR"><span class="exerName"></span></div>
+                </div>
+            </div>
+            <div class="slide" id="slide17">
+                <div class="container">
+                    <div class="sideL"></div>
+                    <div class="main">
+                        <div class="partName"><h1>케이블 푸쉬다운</h1></div>
+                        <div class="media" data-aos="fade-up" data-aos-duration="1000">
+                            <video src="media/cable_push_down1.mp4" data-autoplay muted loop></video>
+                            <video src="media/cable_push_down2.mp4" data-autoplay muted loop></video>
+                        </div>
+                        <div class="explain" data-aos="fade-up" data-aos-duration="1000">
+                            <p>1. 케이블을 기계 상단에 끝까지 설치해야 합니다.</p>
+                            <p>2. 상완을 옆구리에 붙인 상태로 유지하세요.</p>
+                            <p>3. 삼두근 수축이 느껴질 때까지 팔꿈치를 펴십시오.</p>
+                        </div>
+                    </div>
+                    <div class="sideR"><span class="exerName"></span></div>
+                </div>
+            </div>
+            <div class="slide" id="slide18">
+                <div class="container">
+                    <div class="sideL"></div>
+                    <div class="main">
+                        <div class="partName"><h1>클로즈그립 벤치프레스</h1></div>
+                        <div class="media" data-aos="fade-up" data-aos-duration="1500">
+                            <video src="media/barbell_close_grip_bench_press1.mp4" data-autoplay muted loop></video>
+                            <video src="media/barbell_close_grip_bench_press2.mp4" data-autoplay muted loop></video>
+                        </div>
+                        <div class="explain" data-aos="fade-up" data-aos-duration="1000">
+                            <p>1. 바닥에 발을 대고 벤치에 평평하게 눕습니다.</p>
+                            <p>2. 바를 좁게 잡은 상태에서 팔을 곧게 펴십시오.</p>
+                            <p>3. 바를 가슴 중앙 아래로 내립니다.</p>
+                            <p>4. 팔꿈치가 잠길 때까지 바를 천천히 올리십시오.</p>
+                        </div>
+                    </div>
+                    <div class="sideR"><span class="exerName"></span></div>
+                </div>
+            </div>
+            <div class="slide" id="slide19">
+                <div class="container">
+                    <div class="sideL"></div>
+                    <div class="main">
+                        <div class="partName"><h1>덤벨 스컬크러셔</h1></div>
+                        <div class="media" data-aos="fade-up" data-aos-duration="1000">
+                            <video src="media/dumbbell_skullcrusher1.mp4" data-autoplay muted loop></video>
+                            <video src="media/dumbbell_skullcrusher2.mp4" data-autoplay muted loop></video>
+                        </div>
+                        <div class="explain" data-aos="fade-up" data-aos-duration="1000">
+                            <p>1. 바닥이나 벤치에 평평하게 눕고 주먹을 천장까지 뻗고 중립 그립을 잡습니다.</p>
+                            <p>2. 주먹이 관자놀이에 닿을 때까지 팔꿈치를 꺾습니다.</p>
+                            <p>3. 팔꿈치를 펴고 상단에서 삼두근을 구부리십시오.</p>
+                        </div>
+                    </div>
+                    <div class="sideR"><span class="exerName"></span></div>
+                </div>
+            </div>
+        </section>
+
+        <section id="sc5" class="section" name="하체">
+            <div class="slide" id="slide20">
+                <div class="container">
+                    <div class="sideL"></div>
+                    <div class="main">
+                        <div class="partName"><h1>바벨 스쿼트</h1></div>
+                        <div class="media" data-aos="fade-up" data-aos-duration="1000">
+                            <video src="media/barbell_squat1.mp4" data-autoplay muted loop></video>
+                            <video src="media/barbell_squat2.mp4" data-autoplay muted loop></video>
+                        </div>
+                        <div class="explain" data-aos="fade-up" data-aos-duration="1000">
+                            <p>1. 발을 어깨 너비로 벌리고 서십시오. 등의 자연스러운 아치를 유지하고 견갑골을 조이고 가슴을 들어 올립니다.</p>
+                            <p>2. 바를 어깨 너머로 잡고 등 위쪽으로 지지합니다. 다리를 곧게 펴서 바를 풀고 뒤로 물러서십시오.</p>
+                            <p>3. 엉덩이가 무릎 아래에 올 때까지 등의 형태를 변경하지 않고 웨이트를 내리면서 무릎을 구부립니다.</p>
+                            <p>4. 바를 시작 위치로 되돌리고 다리로 들어 올린 다음 상단에서 숨을 내쉬십시오.</p>
+                        </div>
+                    </div>
+                    <div class="sideR"><span class="exerName"></span></div>
+                </div>
+            </div>
+            <div class="slide" id="slide21">
+                <div class="container">
+                    <div class="sideL"></div>
+                    <div class="main">
+                        <div class="partName"><h1>포워드 런지</h1></div>
+                        <div class="media" data-aos="fade-up" data-aos-duration="1000">
+                            <video src="media/foward_lunge1.mp4" data-autoplay muted loop></video>
+                            <video src="media/foward_lunge2.mp4" data-autoplay muted loop></video>
+                        </div>
+                        <div class="explain" data-aos="fade-up" data-aos-duration="1000">
+                            <p>1. 한 발을 앞으로 내딛습니다.</p>
+                            <p>2. 뒤쪽 무릎이 지면에 거의 닿을 때까지 몸을 내립니다.</p>
+                            <p>3. 몸을 똑바로 세우고 앞 무릎이 앞 발 위에 있는지 확인하세요.</p>
+                        </div>
+                    </div>
+                    <div class="sideR"><span class="exerName"></span></div>
+                </div>
+            </div>
+            <div class="slide" id="slide22">
+                <div class="container">
+                    <div class="sideL"></div>
+                    <div class="main">
+                        <div class="partName"><h1>불가리안 스플릿 스쿼트</h1></div>
+                        <div class="media" data-aos="fade-up" data-aos-duration="1000">
+                            <video src="media/dumbbell_bulgarian_split_squat1.mp4" data-autoplay muted loop></video>
+                            <video src="media/dumbbell_bulgarian_split_squat2.mp4" data-autoplay muted loop></video>
+                        </div>
+                        <div class="explain" data-aos="fade-up" data-aos-duration="1000">
+                            <p>1. 대략 무릎 높이 또는 몇 인치 낮은 상자나 벤치를 찾으십시오. (상자가 낮을수록 이동성 요구 사항이 낮습니다).</p>
+                            <p>2. 발가락이나 발등을 상자 위에 놓을 수 있습니다. 앞발을 앞으로 향하게 하거나 약간 바깥쪽으로 돌리고 무릎과 엉덩이를 동시에 꺾습니다.</p>
+                            <p>3. 앞다리가 평행 깊이(햄스트링이 지면과 평행) 이하가 되도록 하는 것을 목표로 하십시오.</p>
+                            <p>4. 앞발이 더 앞으로 나갈수록 엉덩이의 가동 범위가 더 길어집니다. 앞발이 뒤로 갈수록 무릎의 ROM이 길어집니다.</p>
+                        </div>
+                    </div>
+                    <div class="sideR"><span class="exerName"></span></div>
+                </div>
+            </div>
+            <div class="slide" id="slide23">
+                <div class="container">
+                    <div class="sideL"></div>
+                    <div class="main">
+                        <div class="partName"><h1>레그 익스텐션</h1></div>
+                        <div class="media" data-aos="fade-up" data-aos-duration="1000">
+                            <video src="media/leg_extension1.mp4" data-autoplay muted loop></video>
+                            <video src="media/leg_extension2.mp4" data-autoplay muted loop></video>
+                        </div>
+                        <div class="explain" data-aos="fade-up" data-aos-duration="1000">
+                            <p>1. 쿠션에 등을 대고 머신에 앉아 무릎이 시작 위치에서 90도 각도가 되도록 사용 중인 머신을 조정합니다.</p>
+                            <p>2. 무릎을 바깥쪽으로 뻗어 웨이트를 올린 다음 다리를 시작 위치로 내립니다.</p>
+                            <p>3. 두 동작 모두 느리고 제어된 동작으로 수행해야 합니다.</p>
+                       </div>
+                    </div>
+                    <div class="sideR"><span class="exerName"></span></div>
+                </div>
+            </div>
+        </sction>
+    </div>
+</body>
+</html>
