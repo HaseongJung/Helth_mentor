@@ -2,7 +2,7 @@
 
 <p align="center">
   <br>
-  <img src="./images/common/logo-sample.jpeg">
+  <img width="360" alt="메인페이지" src="https://github.com/HaseongJung/Helth_mentor/assets/107913513/a393395d-a478-4f41-8b2e-f442516529cf">
   <br>
 </p>
 
