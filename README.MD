@@ -20,7 +20,7 @@
 
 |   HTML   |   CSS   | JavaScript    |  Jquery   |
 | :-----:  | :-----: |  :------:     |  :-----:  |
-| ![html](https://github.com/HaseongJung/Helth_mentor/assets/107913513/b954f0e5-d90e-4d72-887b-923ecd3559b6) | ![css](https://github.com/HaseongJung/Helth_mentor/assets/107913513/945f5081-3114-4d0a-89e8-4fca89451e00)  | ![javascript](https://github.com/HaseongJung/Helth_mentor/assets/107913513/733809d0-6cc8-465f-bcba-3a2ea9b9fcb7) | <img src="https://github.com/HaseongJung/Helth_mentor/raw/main/assets/107913513/f1c1a958-b324-4c55-9b7e-98cd1829b660" alt="Jquery" width="100" |
+| ![html](https://github.com/HaseongJung/Helth_mentor/assets/107913513/b954f0e5-d90e-4d72-887b-923ecd3559b6) | ![css](https://github.com/HaseongJung/Helth_mentor/assets/107913513/945f5081-3114-4d0a-89e8-4fca89451e00)  | ![javascript](https://github.com/HaseongJung/Helth_mentor/assets/107913513/733809d0-6cc8-465f-bcba-3a2ea9b9fcb7) | <img src="https://github.com/HaseongJung/Helth_mentor/raw/main/assets/107913513/f1c1a958-b324-4c55-9b7e-98cd1829b660" alt="Jquery" width="100"> |
 
 <br>
 
