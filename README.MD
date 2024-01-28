@@ -1,4 +1,4 @@
-# 프로젝트 이름
+# Health Mentor
 
 <p align="center">
   <br>
