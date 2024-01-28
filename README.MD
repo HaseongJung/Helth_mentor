@@ -18,9 +18,9 @@
 
 ## 기술 스택
 
-|   HTML   |   CSS   | JavaScript |  Jquery   |
-| :-----:  | :-----: |  :------:  |  :-----:  |
-| ![html]  | ![css]  |   ![js]    | ![jquery] |
+|   HTML   |   CSS   | JavaScript    |  Jquery   |
+| :-----:  | :-----: |  :------:     |  :-----:  |
+| ![html]  | ![css]  | ![javascript] | ![jquery] |
 
 <br>
 
