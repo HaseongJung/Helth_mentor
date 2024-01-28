@@ -11,7 +11,7 @@
 ## 프로젝트 소개
 
 <p align="justify">
-프로젝트 개요/동기
+2학년 1학기 전공선택 강의 '프론트엔드웹설계' 기말 대체 프로젝트
 </p>
 
 <p align="center">
@@ -22,9 +22,9 @@ GIF Images
 
 ## 기술 스택
 
-| JavaScript | TypeScript |  React   |  Node   |
-| :--------: | :--------: | :------: | :-----: |
-|   ![js]    |   ![ts]    | ![react] | ![node] |
+|   HTML   |   CSS   | JavaScript |  Jquery   |
+| :-----:  | :-----: |  :------:  |  :-----:  |
+| ![html]  | ![css]  |   ![js]    | ![jquery] |
 
 <br>
 
