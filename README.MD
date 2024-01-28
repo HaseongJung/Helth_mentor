@@ -33,7 +33,7 @@
 <img width="410" alt="메인페이지-유산소2" src="https://github.com/HaseongJung/Helth_mentor/assets/107913513/ff729515-6711-47a0-9b9d-d8354754c04d">
 
 <img width="410" alt="메인페이지-무산소1" src="https://github.com/HaseongJung/Helth_mentor/assets/107913513/2c597d4e-260f-4bd3-a632-d3cb30b41ea2">
-<img width="410" alt="메인페이지-무산소2" src="https://github.com/HaseongJung/Helth_mentor/assets/107913513/96722451-5c47-45a6-9126-a78538485cef">
+<img width="410" alt="메인페이지-무산소2" src="https://github.com/HaseongJung/Helth_mentor/assets/107913513/00eb33e7-e920-4f20-9f64-29c700f90e24">
 
 <img width="410" alt="메인페이지-기록1" src="https://github.com/HaseongJung/Helth_mentor/assets/107913513/4f3bf16e-dfb7-43c8-a042-aa70fee01f20">
 <img width="410" alt="메인페이지-기록2" src="https://github.com/HaseongJung/Helth_mentor/assets/107913513/3db6e39c-338f-4614-ad7e-2e1765fcbab6">
@@ -45,7 +45,7 @@
 ### 유산소 페이지
 <img width="410" alt="유산소1" src="https://github.com/HaseongJung/Helth_mentor/assets/107913513/dc615cd4-4f34-4a47-b961-a7fd832b1940">
 <img width="410" alt="유산소2" src="https://github.com/HaseongJung/Helth_mentor/assets/107913513/4fc30f4e-3622-45f5-a6bd-4700f67a8f68">
-<img width="1280" alt="유산소3" src="https://github.com/HaseongJung/Helth_mentor/assets/107913513/c9090299-7903-413f-a4ca-fc43d68e3cbb">
+<img width="410" alt="유산소3" src="https://github.com/HaseongJung/Helth_mentor/assets/107913513/c9090299-7903-413f-a4ca-fc43d68e3cbb">
 <br>
 
 ### 무산소 페이지
