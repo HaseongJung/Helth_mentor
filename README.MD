@@ -27,7 +27,7 @@ GIF Images
 
 ## 메인페이지
 <br>
-<img width="640" alt="메인페이지1-1" src="https://github.com/HaseongJung/Helth_mentor/assets/107913513/98911793-abb7-4c8f-bfe5-3aaef503
+<img width="640" alt="메인페이지1-1" src="https://github.com/HaseongJung/Helth_mentor/assets/107913513/98911793-abb7-4c8f-bfe5-3aaef503>
 <img width="640" alt="메인페이지1-2" src="https://github.com/HaseongJung/Helth_mentor/assets/107913513/c7356e2f-3983-4226-a144-ff764752a5e6">
 <br>
 
