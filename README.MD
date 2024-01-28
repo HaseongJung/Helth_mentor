@@ -1,12 +1,9 @@
 # Health Mentor
 
 <p align="center">
-  <br>
   <img width="1200" alt="메인페이지" src="https://github.com/HaseongJung/Helth_mentor/assets/107913513/a393395d-a478-4f41-8b2e-f442516529cf">
   <br>
 </p>
-
-목차
 
 ## 프로젝트 소개
 
