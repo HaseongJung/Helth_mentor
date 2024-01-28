@@ -20,7 +20,7 @@
 
 |   HTML   |   CSS   | JavaScript    |  Jquery   |
 | :-----:  | :-----: |  :------:     |  :-----:  |
-| ![html](https://github.com/HaseongJung/Helth_mentor/assets/107913513/b954f0e5-d90e-4d72-887b-923ecd3559b6) | ![css]  | ![javascript] | ![jquery] |
+| ![html](https://github.com/HaseongJung/Helth_mentor/assets/107913513/b954f0e5-d90e-4d72-887b-923ecd3559b6) | ![css](https://github.com/HaseongJung/Helth_mentor/assets/107913513/945f5081-3114-4d0a-89e8-4fca89451e00)  | ![javascript](https://github.com/HaseongJung/Helth_mentor/assets/107913513/733809d0-6cc8-465f-bcba-3a2ea9b9fcb7) | ![Jquery](https://github.com/HaseongJung/Helth_mentor/assets/107913513/7b46bac6-b354-43e5-9a35-98fa22424e7e) |
 
 <br>
 
