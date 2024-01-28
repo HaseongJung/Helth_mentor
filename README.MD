@@ -26,8 +26,7 @@ GIF Images
 <br>
 
 ## 웹 페이지 화면
-<br>
-###메인 페이지
+### 메인 페이지
 <img width="410" alt="메인페이지1-1" src="https://github.com/HaseongJung/Helth_mentor/assets/107913513/97e4ce62-489d-4c99-9d30-ea38e5f717ed">
 <img width="410" alt="메인페이지1-2" src="https://github.com/HaseongJung/Helth_mentor/assets/107913513/c7356e2f-3983-4226-a144-ff764752a5e6">
 
