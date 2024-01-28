@@ -20,7 +20,7 @@
 
 |   HTML   |   CSS   | JavaScript    |  Jquery   |
 | :-----:  | :-----: |  :------:     |  :-----:  |
-| ![html]  | ![css]  | ![javascript] | ![jquery] |
+| <img src="https://img.shields.io/badge/[html5]-[#E34F26]?/> | ![css]  | ![javascript] | ![jquery] |
 
 <br>
 
