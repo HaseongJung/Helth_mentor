@@ -12,7 +12,6 @@
 </p>
 
 <p align="center">
-GIF Images
 </p>
 
 <br>
@@ -46,6 +45,7 @@ GIF Images
 ### 유산소 페이지
 <img width="410" alt="유산소1" src="https://github.com/HaseongJung/Helth_mentor/assets/107913513/dc615cd4-4f34-4a47-b961-a7fd832b1940">
 <img width="410" alt="유산소2" src="https://github.com/HaseongJung/Helth_mentor/assets/107913513/4fc30f4e-3622-45f5-a6bd-4700f67a8f68">
+<img width="1280" alt="유산소3" src="https://github.com/HaseongJung/Helth_mentor/assets/107913513/c9090299-7903-413f-a4ca-fc43d68e3cbb">
 <br>
 
 ### 무산소 페이지
@@ -61,17 +61,11 @@ GIF Images
 <img width="410" alt="기록2" src="https://github.com/HaseongJung/Helth_mentor/assets/107913513/edafbd6b-f7b0-4bd6-860c-5245edbb22f2">
 <br>
 
-## 배운 점 & 아쉬운 점
-
 <p align="justify">
 
 </p>
 
 <br>
-
-## 라이센스
-
-MIT &copy; [NoHack](mailto:lbjp114@gmail.com)
 
 <!-- Stack Icon Refernces -->
 
