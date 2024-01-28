@@ -43,12 +43,22 @@ GIF Images
 <img width="410" alt="메인페이지-찾기2" src="https://github.com/HaseongJung/Helth_mentor/assets/107913513/9797b3ff-8fcd-4171-8c97-6c9b466327c6">
 <br>
 
-### 기능 2
+### 유산소 페이지
+<img width="410" alt="유산소1" src="https://github.com/HaseongJung/Helth_mentor/assets/107913513/dc615cd4-4f34-4a47-b961-a7fd832b1940">
+<img width="410" alt="유산소2" src="https://github.com/HaseongJung/Helth_mentor/assets/107913513/4fc30f4e-3622-45f5-a6bd-4700f67a8f68">
+<br>
 
-### 기능 3
+### 무산소 페이지
+<img width="410" alt="무산소1" src="https://github.com/HaseongJung/Helth_mentor/assets/107913513/3b136d74-24d5-4eaf-a0af-3bc31c418a61">
+<img width="410" alt="무산소2" src="https://github.com/HaseongJung/Helth_mentor/assets/107913513/a2cd9fa0-add4-4402-8fb6-33ac5611c893">
+<img width="410" alt="무산소3" src="https://github.com/HaseongJung/Helth_mentor/assets/107913513/fa624489-415e-49e2-b485-aad597e6dc1b">
+<img width="410" alt="무산소4" src="https://github.com/HaseongJung/Helth_mentor/assets/107913513/af3869f4-b15e-4908-a8d2-c90416b8d49d">
+<img width="410" alt="무산소5" src="https://github.com/HaseongJung/Helth_mentor/assets/107913513/84b57e63-e553-44ca-955c-e54ed097b15b">
+<br>
 
-### 기능 4
-
+### 기록 페이지
+<img width="410" alt="기록1" src="https://github.com/HaseongJung/Helth_mentor/assets/107913513/0f5fe18a-bf9f-4bb0-995b-9e9915fb2c6b">
+<img width="410" alt="기록2" src="https://github.com/HaseongJung/Helth_mentor/assets/107913513/edafbd6b-f7b0-4bd6-860c-5245edbb22f2">
 <br>
 
 ## 배운 점 & 아쉬운 점
