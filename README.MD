@@ -20,7 +20,7 @@
 
 |   HTML   |   CSS   | JavaScript    |  Jquery   |
 | :-----:  | :-----: |  :------:     |  :-----:  |
-| <img src="https://img.shields.io/badge/[html5]-[#E34F26]?/> | ![css]  | ![javascript] | ![jquery] |
+| ![html](https://github.com/HaseongJung/Helth_mentor/assets/107913513/b954f0e5-d90e-4d72-887b-923ecd3559b6) | ![css]  | ![javascript] | ![jquery] |
 
 <br>
 
